@@ -1,6 +1,6 @@
 package com.ust
 
-class Employee12{
+public class Employee12{
     def firstName, lastName;
     int age;
     Double salary;
