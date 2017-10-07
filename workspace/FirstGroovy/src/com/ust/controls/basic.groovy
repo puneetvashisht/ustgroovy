@@ -1,3 +1,6 @@
+def abc = 324234324323434233432343.343443434
+println abc;
+
 switch (6) {
     case 0: println '0' ; break 
     case [8,9,11]: println('8,9,11'); break 
