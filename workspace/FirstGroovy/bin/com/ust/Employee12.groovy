@@ -1,14 +1,19 @@
 package com.ust
 
-public class Employee12{
+class Employee123 {
     def firstName, lastName;
-    int age;
-    Double salary;
+    def age;
+    def salary;
 
     public void increment(int amount){
         salary = salary+amount;
     }
-public String toString() { 
-    return "Employee: firstName -- $firstName lastName -- $lastName age -- $age salary -- $salary"
+    public String toString() { 
+        return "Employee: firstName -- $firstName lastName -- $lastName age -- $age salary -- $salary"
+    }
 }
-}
+
+def emp = new Employee123(firstName:'Ravi', lastName:'Sharma', age :34, salary:34354.23)
+// emp.setFirstName('Ravi');
+println emp.getFirstName();
+println emp;
